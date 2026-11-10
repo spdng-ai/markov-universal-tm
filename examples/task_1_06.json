@@ -1,0 +1,79 @@
+{
+  "name": "Задача 1.6: предыдущее число в унарном коде",
+  "start": 1,
+  "transitions": [
+    {
+      "source": 1,
+      "read": "σ",
+      "target": 1,
+      "write": "σ",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "_",
+      "target": 21,
+      "write": "_",
+      "move": "S"
+    },
+    {
+      "source": 1,
+      "read": "1",
+      "target": 2,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "_",
+      "target": 21,
+      "write": "_",
+      "move": "S"
+    },
+    {
+      "source": 2,
+      "read": "1",
+      "target": 3,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "1",
+      "target": 3,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "_",
+      "target": 4,
+      "write": "_",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "1",
+      "target": 20,
+      "write": "_",
+      "move": "S"
+    }
+  ],
+  "task": "1.6",
+  "statement": "A = {1}. Унарный код: вычислить число, предшествующее данному.",
+  "states": {
+    "S0": 1,
+    "S1": 2,
+    "S2": 3,
+    "S3": 4,
+    "Ω": 20,
+    "Ω1": 21
+  },
+  "example": {
+    "input": "σ111",
+    "expected_tape": "σ11",
+    "expected_state": 20
+  },
+  "notes": "Код нуля (вход «σ1») и пустое слово дают состояние 21.",
+  "source": "Тихомирова А.Н., Сафоненко Н.В. Практикум по теории алгоритмов. МИФИ, 2011, задача 1.6"
+}

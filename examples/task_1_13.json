@@ -1,0 +1,211 @@
+{
+  "name": "Задача 1.13: псевдоразность чисел a и b в унарном коде",
+  "start": 1,
+  "transitions": [
+    {
+      "source": 1,
+      "read": "σ",
+      "target": 1,
+      "write": "σ",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "1",
+      "target": 1,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "c",
+      "target": 1,
+      "write": "c",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "∸",
+      "target": 2,
+      "write": "∸",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "_",
+      "target": 21,
+      "write": "_",
+      "move": "S"
+    },
+    {
+      "source": 2,
+      "read": "c",
+      "target": 2,
+      "write": "c",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "1",
+      "target": 3,
+      "write": "c",
+      "move": "L"
+    },
+    {
+      "source": 2,
+      "read": "_",
+      "target": 4,
+      "write": "_",
+      "move": "L"
+    },
+    {
+      "source": 3,
+      "read": "c",
+      "target": 3,
+      "write": "c",
+      "move": "L"
+    },
+    {
+      "source": 3,
+      "read": "∸",
+      "target": 3,
+      "write": "∸",
+      "move": "L"
+    },
+    {
+      "source": 3,
+      "read": "1",
+      "target": 1,
+      "write": "c",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "σ",
+      "target": 7,
+      "write": "σ",
+      "move": "R"
+    },
+    {
+      "source": 4,
+      "read": "c",
+      "target": 4,
+      "write": "_",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "∸",
+      "target": 5,
+      "write": "_",
+      "move": "L"
+    },
+    {
+      "source": 5,
+      "read": "c",
+      "target": 5,
+      "write": "_",
+      "move": "L"
+    },
+    {
+      "source": 5,
+      "read": "1",
+      "target": 6,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 5,
+      "read": "σ",
+      "target": 6,
+      "write": "σ",
+      "move": "R"
+    },
+    {
+      "source": 6,
+      "read": "_",
+      "target": 20,
+      "write": "1",
+      "move": "S"
+    },
+    {
+      "source": 7,
+      "read": "c",
+      "target": 7,
+      "write": "_",
+      "move": "R"
+    },
+    {
+      "source": 7,
+      "read": "∸",
+      "target": 8,
+      "write": "_",
+      "move": "R"
+    },
+    {
+      "source": 8,
+      "read": "c",
+      "target": 8,
+      "write": "_",
+      "move": "R"
+    },
+    {
+      "source": 8,
+      "read": "1",
+      "target": 8,
+      "write": "_",
+      "move": "R"
+    },
+    {
+      "source": 8,
+      "read": "_",
+      "target": 9,
+      "write": "_",
+      "move": "L"
+    },
+    {
+      "source": 9,
+      "read": "_",
+      "target": 9,
+      "write": "_",
+      "move": "L"
+    },
+    {
+      "source": 9,
+      "read": "σ",
+      "target": 10,
+      "write": "σ",
+      "move": "R"
+    },
+    {
+      "source": 10,
+      "read": "_",
+      "target": 20,
+      "write": "1",
+      "move": "S"
+    }
+  ],
+  "task": "1.13",
+  "statement": "A = {1}. Унарная псевдоразность a∸b: результат записать вместо слова.",
+  "states": {
+    "S0": 1,
+    "A": 2,
+    "B": 3,
+    "C": 4,
+    "C1": 5,
+    "C3": 6,
+    "E": 7,
+    "E1": 8,
+    "E2": 9,
+    "E3": 10,
+    "Ω": 20,
+    "Ω1": 21
+  },
+  "example": {
+    "input": "σ111∸11",
+    "expected_tape": "σ111",
+    "expected_state": 20
+  },
+  "notes": "Схема пособия дополнена (C1/C3 — дописывание недостающей единицы рядом с остатком первого числа, E1–E3 — запись нуля в начале ленты), чтобы результат всегда был в коде «n+1 единица», как в задаче 1.6.",
+  "source": "Тихомирова А.Н., Сафоненко Н.В. Практикум по теории алгоритмов. МИФИ, 2011, задача 1.13"
+}

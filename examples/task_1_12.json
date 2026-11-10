@@ -1,0 +1,250 @@
+{
+  "name": "Задача 1.12: проверить, является ли слово палиндромом",
+  "start": 1,
+  "transitions": [
+    {
+      "source": 1,
+      "read": "σ",
+      "target": 1,
+      "write": "σ",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "_",
+      "target": 21,
+      "write": "_",
+      "move": "S"
+    },
+    {
+      "source": 1,
+      "read": "0",
+      "target": 2,
+      "write": "c",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "1",
+      "target": 3,
+      "write": "d",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "e",
+      "target": 20,
+      "write": "0",
+      "move": "S"
+    },
+    {
+      "source": 1,
+      "read": "f",
+      "target": 20,
+      "write": "1",
+      "move": "S"
+    },
+    {
+      "source": 2,
+      "read": "0",
+      "target": 2,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "1",
+      "target": 2,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "0",
+      "target": 3,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "1",
+      "target": 3,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "_",
+      "target": 4,
+      "write": "_",
+      "move": "L"
+    },
+    {
+      "source": 3,
+      "read": "_",
+      "target": 5,
+      "write": "_",
+      "move": "L"
+    },
+    {
+      "source": 2,
+      "read": "e",
+      "target": 4,
+      "write": "0",
+      "move": "L"
+    },
+    {
+      "source": 2,
+      "read": "f",
+      "target": 4,
+      "write": "1",
+      "move": "L"
+    },
+    {
+      "source": 3,
+      "read": "e",
+      "target": 5,
+      "write": "0",
+      "move": "L"
+    },
+    {
+      "source": 3,
+      "read": "f",
+      "target": 5,
+      "write": "1",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "0",
+      "target": 6,
+      "write": "e",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "1",
+      "target": 7,
+      "write": "1",
+      "move": "L"
+    },
+    {
+      "source": 5,
+      "read": "0",
+      "target": 7,
+      "write": "0",
+      "move": "L"
+    },
+    {
+      "source": 5,
+      "read": "1",
+      "target": 6,
+      "write": "f",
+      "move": "L"
+    },
+    {
+      "source": 6,
+      "read": "0",
+      "target": 6,
+      "write": "0",
+      "move": "L"
+    },
+    {
+      "source": 6,
+      "read": "1",
+      "target": 6,
+      "write": "1",
+      "move": "L"
+    },
+    {
+      "source": 7,
+      "read": "0",
+      "target": 7,
+      "write": "0",
+      "move": "L"
+    },
+    {
+      "source": 7,
+      "read": "1",
+      "target": 7,
+      "write": "1",
+      "move": "L"
+    },
+    {
+      "source": 6,
+      "read": "c",
+      "target": 1,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 6,
+      "read": "d",
+      "target": 1,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 7,
+      "read": "c",
+      "target": 21,
+      "write": "0",
+      "move": "S"
+    },
+    {
+      "source": 7,
+      "read": "d",
+      "target": 21,
+      "write": "1",
+      "move": "S"
+    },
+    {
+      "source": 4,
+      "read": "c",
+      "target": 20,
+      "write": "0",
+      "move": "S"
+    },
+    {
+      "source": 4,
+      "read": "d",
+      "target": 20,
+      "write": "1",
+      "move": "S"
+    },
+    {
+      "source": 5,
+      "read": "c",
+      "target": 20,
+      "write": "0",
+      "move": "S"
+    },
+    {
+      "source": 5,
+      "read": "d",
+      "target": 20,
+      "write": "1",
+      "move": "S"
+    }
+  ],
+  "task": "1.12",
+  "statement": "A = {0, 1}. Определить, является ли слово палиндромом (Ω — да, Ω1 — нет).",
+  "states": {
+    "S0": 1,
+    "A": 2,
+    "B": 3,
+    "A1": 4,
+    "B1": 5,
+    "C": 6,
+    "D": 7,
+    "Ω": 20,
+    "Ω1": 21
+  },
+  "example": {
+    "input": "σ010",
+    "expected_tape": "σ010",
+    "expected_state": 20
+  },
+  "notes": "Палиндром → состояние 20, не палиндром → 21. Опечатка пособия в правиле A1 исправлена по тексту решения.",
+  "source": "Тихомирова А.Н., Сафоненко Н.В. Практикум по теории алгоритмов. МИФИ, 2011, задача 1.12"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Задача 1.4: записать в конце слова последний символ слова",
+  "start": 1,
+  "transitions": [
+    {
+      "source": 1,
+      "read": "σ",
+      "target": 1,
+      "write": "σ",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "_",
+      "target": 20,
+      "write": "_",
+      "move": "S"
+    },
+    {
+      "source": 1,
+      "read": "0",
+      "target": 2,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "1",
+      "target": 3,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "0",
+      "target": 2,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "1",
+      "target": 3,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "0",
+      "target": 2,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "1",
+      "target": 3,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "_",
+      "target": 20,
+      "write": "0",
+      "move": "S"
+    },
+    {
+      "source": 3,
+      "read": "_",
+      "target": 20,
+      "write": "1",
+      "move": "S"
+    }
+  ],
+  "task": "1.4",
+  "statement": "A = {0, 1}. Записать в конце слова символ, который был последним.",
+  "states": {
+    "S0": 1,
+    "A0": 2,
+    "A1": 3,
+    "Ω": 20
+  },
+  "example": {
+    "input": "σ01010",
+    "expected_tape": "σ010100",
+    "expected_state": 20
+  },
+  "notes": "Индекс состояния A0/A1 — последний прочитанный символ (первый вариант решения пособия).",
+  "source": "Тихомирова А.Н., Сафоненко Н.В. Практикум по теории алгоритмов. МИФИ, 2011, задача 1.4"
+}

@@ -7,7 +7,10 @@ from pathlib import Path
 import json
 
 ROOT = Path(__file__).resolve().parent
-TAPE = "01_"
+# Ленточный алфавит: рабочие символы задач практикума, помеченные символы
+# c/d/e/f = 0'/1'/0''/1'', маркер начала ленты σ и пустая ячейка _.
+TAPE = "012ab*∸+-=cdefσ_"
+INPUT = TAPE.replace("_", "")          # допустимые символы входного слова
 
 
 @dataclass(frozen=True)
@@ -34,7 +37,7 @@ class Machine:
                 if type(q) is not int or q < 1:
                     raise ValueError("номера состояний — положительные целые")
             if t.read not in tuple(TAPE) or t.write not in tuple(TAPE):
-                raise ValueError("на ленте только символы 0, 1, _")
+                raise ValueError("на ленте только символы " + " ".join(TAPE))
             if t.move not in ("L", "R", "S"):
                 raise ValueError("движение может быть L, R или S")
             if (t.source, t.read) in keys:
@@ -94,8 +97,9 @@ def encode_snapshot(machine, snapshot):
 
 
 def encode(machine, word):
-    if set(word) - set("01"):
-        raise ValueError("входное слово должно быть двоичным (пустое можно)")
+    if set(word) - set(INPUT):
+        raise ValueError("входное слово содержит символы вне алфавита " +
+                         " ".join(INPUT) + " (пустое слово можно)")
     tape = word or "_"
     return encode_snapshot(machine, Snapshot(machine.start, "", tape[0], tape[1:]))
 

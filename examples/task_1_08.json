@@ -1,0 +1,165 @@
+{
+  "name": "Задача 1.8: копия в обратном порядке сразу за словом (без «*»)",
+  "start": 1,
+  "transitions": [
+    {
+      "source": 1,
+      "read": "σ",
+      "target": 1,
+      "write": "σ",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "_",
+      "target": 21,
+      "write": "_",
+      "move": "S"
+    },
+    {
+      "source": 1,
+      "read": "0",
+      "target": 2,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "1",
+      "target": 2,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "0",
+      "target": 2,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "1",
+      "target": 2,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "_",
+      "target": 3,
+      "write": "_",
+      "move": "L"
+    },
+    {
+      "source": 3,
+      "read": "σ",
+      "target": 20,
+      "write": "σ",
+      "move": "S"
+    },
+    {
+      "source": 3,
+      "read": "0",
+      "target": 5,
+      "write": "c",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "1",
+      "target": 6,
+      "write": "d",
+      "move": "R"
+    },
+    {
+      "source": 5,
+      "read": "0",
+      "target": 5,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 5,
+      "read": "1",
+      "target": 5,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 6,
+      "read": "0",
+      "target": 6,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 6,
+      "read": "1",
+      "target": 6,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 5,
+      "read": "_",
+      "target": 4,
+      "write": "0",
+      "move": "L"
+    },
+    {
+      "source": 6,
+      "read": "_",
+      "target": 4,
+      "write": "1",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "0",
+      "target": 4,
+      "write": "0",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "1",
+      "target": 4,
+      "write": "1",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "c",
+      "target": 3,
+      "write": "0",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "d",
+      "target": 3,
+      "write": "1",
+      "move": "L"
+    }
+  ],
+  "task": "1.8",
+  "statement": "A = {0, 1}. Скопировать слово в обратном порядке сразу за исходным (без «*»).",
+  "states": {
+    "S0": 1,
+    "S1": 2,
+    "S2": 3,
+    "S3": 4,
+    "A0": 5,
+    "A1": 6,
+    "Ω": 20,
+    "Ω1": 21
+  },
+  "example": {
+    "input": "σ1010",
+    "expected_tape": "σ10100101",
+    "expected_state": 20
+  },
+  "notes": "",
+  "source": "Тихомирова А.Н., Сафоненко Н.В. Практикум по теории алгоритмов. МИФИ, 2011, задача 1.8"
+}

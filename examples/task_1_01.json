@@ -1,0 +1,47 @@
+{
+  "name": "Задача 1.1: заменить все «a» на «b»",
+  "start": 1,
+  "transitions": [
+    {
+      "source": 1,
+      "read": "σ",
+      "target": 1,
+      "write": "σ",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "b",
+      "target": 1,
+      "write": "b",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "a",
+      "target": 1,
+      "write": "b",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "_",
+      "target": 20,
+      "write": "_",
+      "move": "S"
+    }
+  ],
+  "task": "1.1",
+  "statement": "A = {a, b}. Заменить во входном слове все символы «a» на «b».",
+  "states": {
+    "S0": 1,
+    "Ω": 20
+  },
+  "example": {
+    "input": "σbaba",
+    "expected_tape": "σbbbb",
+    "expected_state": 20
+  },
+  "notes": "",
+  "source": "Тихомирова А.Н., Сафоненко Н.В. Практикум по теории алгоритмов. МИФИ, 2011, задача 1.1"
+}

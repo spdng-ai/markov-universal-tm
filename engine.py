@@ -38,13 +38,29 @@ class Markov:
     def __init__(self, rules, *, alphabet_filter=True):
         self.rules = tuple(rules)
         self.alphabet_filter = alphabet_filter
-        self._required = tuple(frozenset(r.lhs) for r in self.rules)
-        # фильтр выкидывает только правила с буквами, которых во всём слове нет;
-        # порядок правил и поиск вхождения он не меняет
+        # Индекс по первым двум буквам левой части: если какой-то из них нет во
+        # всём слове, вхождение заведомо невозможно. Порядок правил и поиск
+        # вхождения фильтр не меняет; проверяется обычным str.find как раньше.
+        buckets = {}
+        self._empty_lhs = tuple(i for i, r in enumerate(self.rules) if not r.lhs)
+        for i, rule in enumerate(self.rules):
+            if len(rule.lhs) >= 2:
+                buckets.setdefault(rule.lhs[0], {}).setdefault(rule.lhs[1], []).append(i)
+            elif rule.lhs:
+                buckets.setdefault(rule.lhs[0], {}).setdefault(None, []).append(i)
+        self._by_first = {c: {d: tuple(ix) for d, ix in seconds.items()}
+                          for c, seconds in buckets.items()}
         self._candidates = lru_cache(maxsize=2048)(self._filter)
 
     def _filter(self, present):
-        return tuple(i for i, needed in enumerate(self._required) if needed <= present)
+        indices = set(self._empty_lhs)
+        for letter, seconds in self._by_first.items():
+            if letter not in present:
+                continue
+            for second, ix in seconds.items():
+                if second is None or second in present:
+                    indices.update(ix)
+        return tuple(sorted(indices))
 
     def step(self, word):
         indices = (self._candidates(frozenset(word)) if self.alphabet_filter

@@ -1,0 +1,134 @@
+{
+  "name": "Задача 1.5: заменить каждую комбинацию «012» на «***»",
+  "start": 1,
+  "transitions": [
+    {
+      "source": 1,
+      "read": "σ",
+      "target": 1,
+      "write": "σ",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "0",
+      "target": 2,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "1",
+      "target": 1,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "2",
+      "target": 1,
+      "write": "2",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "*",
+      "target": 1,
+      "write": "*",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "_",
+      "target": 20,
+      "write": "_",
+      "move": "S"
+    },
+    {
+      "source": 2,
+      "read": "0",
+      "target": 2,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "1",
+      "target": 3,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "2",
+      "target": 1,
+      "write": "2",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "_",
+      "target": 20,
+      "write": "_",
+      "move": "S"
+    },
+    {
+      "source": 3,
+      "read": "0",
+      "target": 2,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "1",
+      "target": 1,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "2",
+      "target": 4,
+      "write": "*",
+      "move": "L"
+    },
+    {
+      "source": 3,
+      "read": "_",
+      "target": 20,
+      "write": "_",
+      "move": "S"
+    },
+    {
+      "source": 4,
+      "read": "1",
+      "target": 4,
+      "write": "*",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "0",
+      "target": 1,
+      "write": "*",
+      "move": "S"
+    }
+  ],
+  "task": "1.5",
+  "statement": "A = {0, 1, 2}. Заменить все комбинации «012» на «***».",
+  "states": {
+    "S0": 1,
+    "S1": 2,
+    "S2": 3,
+    "S3": 4,
+    "Ω": 20
+  },
+  "example": {
+    "input": "σ100121101201",
+    "expected_tape": "σ10***11***01",
+    "expected_state": 20
+  },
+  "notes": "Табличное решение из пособия: состояние S2 при чтении «0» остаётся в S1, чтобы корректно отслеживать начало последовательности.",
+  "source": "Тихомирова А.Н., Сафоненко Н.В. Практикум по теории алгоритмов. МИФИ, 2011, задача 1.5"
+}

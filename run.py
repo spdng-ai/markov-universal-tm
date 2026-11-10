@@ -9,7 +9,8 @@ from codec import controls, encode, decode_stable, load_machine, readable
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("machine", help="JSON-файл с машиной Тьюринга")
-    parser.add_argument("word", nargs="?", default="", help="двоичный вход (по умолчанию пустый)")
+    parser.add_argument("word", nargs="?", default="",
+                        help="входное слово в алфавите задач (по умолчанию пустое)")
     parser.add_argument("--budget", type=int, default=1000000,
                         help="максимум замен; это не тест на остановку")
     parser.add_argument("--trace", action="store_true", help="показывать каждую стабильную конфигурацию")

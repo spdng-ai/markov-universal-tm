@@ -1,0 +1,199 @@
+{
+  "name": "Задача 1.10: копия в прямом порядке без разделителя",
+  "start": 1,
+  "transitions": [
+    {
+      "source": 1,
+      "read": "σ",
+      "target": 1,
+      "write": "σ",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "_",
+      "target": 21,
+      "write": "_",
+      "move": "S"
+    },
+    {
+      "source": 1,
+      "read": "0",
+      "target": 2,
+      "write": "c",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "1",
+      "target": 3,
+      "write": "d",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "e",
+      "target": 5,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "f",
+      "target": 5,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "0",
+      "target": 2,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "1",
+      "target": 2,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "0",
+      "target": 3,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "1",
+      "target": 3,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "e",
+      "target": 2,
+      "write": "e",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "f",
+      "target": 2,
+      "write": "f",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "e",
+      "target": 3,
+      "write": "e",
+      "move": "R"
+    },
+    {
+      "source": 3,
+      "read": "f",
+      "target": 3,
+      "write": "f",
+      "move": "R"
+    },
+    {
+      "source": 2,
+      "read": "_",
+      "target": 4,
+      "write": "e",
+      "move": "L"
+    },
+    {
+      "source": 3,
+      "read": "_",
+      "target": 4,
+      "write": "f",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "0",
+      "target": 4,
+      "write": "0",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "1",
+      "target": 4,
+      "write": "1",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "e",
+      "target": 4,
+      "write": "e",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "f",
+      "target": 4,
+      "write": "f",
+      "move": "L"
+    },
+    {
+      "source": 4,
+      "read": "c",
+      "target": 1,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 4,
+      "read": "d",
+      "target": 1,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 5,
+      "read": "e",
+      "target": 5,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 5,
+      "read": "f",
+      "target": 5,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 5,
+      "read": "_",
+      "target": 20,
+      "write": "_",
+      "move": "S"
+    }
+  ],
+  "task": "1.10",
+  "statement": "A = {0, 1}. Скопировать слово в прямом порядке без символа «*».",
+  "states": {
+    "S0": 1,
+    "A0": 2,
+    "A1": 3,
+    "S2": 4,
+    "S3": 5,
+    "Ω": 20,
+    "Ω1": 21
+  },
+  "example": {
+    "input": "σ100",
+    "expected_tape": "σ100100",
+    "expected_state": 20
+  },
+  "notes": "Пометки 0'/1' — буквы c/d; пометки 0''/1'' — буквы e/f.",
+  "source": "Тихомирова А.Н., Сафоненко Н.В. Практикум по теории алгоритмов. МИФИ, 2011, задача 1.10"
+}

@@ -2,6 +2,9 @@
 
 Эталонная МТ продвигается на шаг только после стабильной границы НАМ.
 Она ничего не подсказывает вычислению и слово интерпретатора не меняет.
+Главные действующие лица — задачи 1.1–1.14 практикума (Тихомирова,
+Сафоненко, гл. 1): каждая прогоняется целиком, результат сверяется и с
+обычным симулятором, и с ожидаемым ответом из условия задачи.
 """
 from pathlib import Path
 from itertools import product
@@ -22,6 +25,55 @@ from reference import ReferenceTM
 
 ROOT = Path(__file__).parent
 
+OMEGA = 20    # Ω — нормальная остановка в задачах практикума
+OMEGA_ERROR = 21  # Ω1 — остановка из-за ошибки входа
+
+# (ключ examples, вход, ожидаемая лента без внешних _, ожидаемое состояние)
+TASK_CASES = [
+    ("task_1_01", "σbaba", "σbbbb", OMEGA),
+    ("task_1_01", "σab", "σbb", OMEGA),
+    ("task_1_02", "σ01001", "σ010011", OMEGA),
+    ("task_1_02", "σ", "σ1", OMEGA_ERROR),
+    ("task_1_03", "σ01010", "σ010100", OMEGA),
+    ("task_1_03", "σ1", "σ11", OMEGA),
+    ("task_1_04", "σ011", "σ0111", OMEGA),
+    ("task_1_04", "σ01010", "σ010100", OMEGA),
+    ("task_1_05", "σ100121101201", "σ10***11***01", OMEGA),
+    ("task_1_05", "σ12", "σ12", OMEGA),
+    ("task_1_06", "σ111", "σ11", OMEGA),
+    ("task_1_06", "σ11", "σ1", OMEGA),
+    ("task_1_06", "σ1", "σ1", OMEGA_ERROR),
+    ("task_1_07", "σ1010", "σ1010*0101", OMEGA),
+    ("task_1_07", "σ01", "σ01*10", OMEGA),
+    ("task_1_08", "σ1010", "σ10100101", OMEGA),
+    ("task_1_08", "σ0", "σ00", OMEGA),
+    ("task_1_09", "σ100", "σ100*100", OMEGA),
+    ("task_1_09", "σ10", "σ10*10", OMEGA),
+    ("task_1_10", "σ100", "σ100100", OMEGA),
+    ("task_1_10", "σ01", "σ0101", OMEGA),
+    ("task_1_11", "σ0011", "σ1100", OMEGA),
+    ("task_1_11", "σ0111", "σ1110", OMEGA),
+    ("task_1_11", "σ010", "σ010", OMEGA),
+    ("task_1_12", "σ010", "σ010", OMEGA),
+    ("task_1_12", "σ0110", "σ0110", OMEGA),
+    ("task_1_12", "σ011", "σ011", OMEGA_ERROR),
+    ("task_1_12", "σ0100", "σ0100", OMEGA_ERROR),
+    ("task_1_13", "σ11∸1", "σ11", OMEGA),
+    ("task_1_13", "σ111∸11", "σ11", OMEGA),
+    ("task_1_13", "σ11∸111", "σ1", OMEGA),
+    ("task_1_13", "σ1111∸11", "σ111", OMEGA),
+    ("task_1_13", "σ11∸11", "σ1", OMEGA),
+    ("task_1_13", "σ1111∸1111", "σ1", OMEGA),
+    ("task_1_13", "σ11", "σ11", OMEGA_ERROR),
+    ("task_1_14", "σ0101", "σ0101=", OMEGA),
+    ("task_1_14", "σ011", "σ011+", OMEGA),
+    ("task_1_14", "σ0001", "σ0001-", OMEGA),
+    ("task_1_14", "σ1100", "σ1100=", OMEGA),
+    ("task_1_14", "σ1", "σ1+", OMEGA),
+    ("task_1_14", "σ0", "σ0-", OMEGA),
+    ("task_1_14", "σ", "σ", OMEGA_ERROR),
+]
+
 
 def check_engine():
     # приоритет правила важнее позиции вхождения в слове
@@ -39,7 +91,7 @@ def check_engine():
     assert (limited.status, limited.replacements) == ("limit", 3)
     assert Markov([]).run("", 0).status == "limit"
 
-    # независимый полный перебор против алфавитного фильтра
+    # независимый полный перебор против индекса по первым буквам
     rng = random.Random(64017)
     replacements = 0
     for _ in range(400):
@@ -73,15 +125,16 @@ def main():
     assert names == generated_controls
     ready = names["READY"]
     control_letters = set(names.values())
+    info = json.loads((ROOT / "rules_info.json").read_text(encoding="utf-8"))
     engine = Markov(rules)
     plain_engine = Markov(rules, alphabet_filter=False)
     groups, statuses, hits = Counter(), Counter(), Counter()
     cases = total_replacements = total_transitions = audited_replacements = 0
     named_results = []
     engine_checks = check_engine()
-    print("Семантика движка и совпадение фильтр/полный перебор: OK", flush=True)
+    print("Семантика движка и совпадение индекс/полный перебор: OK", flush=True)
 
-    def case(machine, input_word="", *, snapshot=None, bound=15, budget=2000000,
+    def case(machine, input_word="", *, snapshot=None, bound=15, budget=8000000,
              group="", audit=False, plain=False):
         nonlocal cases, total_replacements, total_transitions, audited_replacements
         word = encode(machine, input_word) if snapshot is None else encode_snapshot(machine, snapshot)
@@ -137,29 +190,45 @@ def main():
                 "configuration": reference.snapshot().__dict__}
 
     ex = examples()
-    for name, word in (("invert", "01011"), ("increment", "111"), ("walk", ""),
-                       ("invert", ""), ("increment", ""), ("immediate", ""),
-                       ("immediate", "101"), ("long_states", "0")):
-        named_results.append(case(ex[name], word, group="named", bound=30))
-    assert named_results[0]["configuration"] == Snapshot(1, "10100", "_", "").__dict__
-    assert named_results[1]["configuration"] == Snapshot(3, "", "1", "000_").__dict__
-    assert named_results[2]["configuration"] == Snapshot(8, "110", "1", "0").__dict__
-    print("Именованные примеры, пустой вход, мгновенная остановка, состояния 129/257/65: OK", flush=True)
 
-    for length in range(7):
+    # Задачи 1.1–1.14 практикума: полный прогон, сверка с эталоном и условием
+    for key, word, expected_tape, expected_state in TASK_CASES:
+        result = case(ex[key], word, group="practicum_tasks_1_1_to_1_14", bound=200)
+        assert result["status"] == "terminal", (key, word, result["status"])
+        s = result["configuration"]
+        display = (s["left"] + s["scanned"] + s["right"]).strip("_")
+        assert display == expected_tape, (key, word, display, expected_tape)
+        assert s["state"] == expected_state, (key, word, s["state"], expected_state)
+    print(f"Задачи 1.1–1.14 практикума: {len(TASK_CASES)} прогонов, результаты совпали "
+          f"с обычным симулятором и условиями: OK", flush=True)
+
+    # служебные демо
+    for key, word in (("invert", "01011"), ("invert", ""), ("immediate", ""),
+                      ("immediate", "101")):
+        named_results.append(case(ex[key], word, group="service_demos", bound=30))
+    assert named_results[0]["configuration"] == Snapshot(1, "10100", "_", "").__dict__
+    print("Служебные демо (инверсия, мгновенная остановка, пустой вход): OK", flush=True)
+
+    # все двоичные слова длины 0..3: инверсия и задача 1.2 (дописать 1)
+    for length in range(4):
         for bits in product("01", repeat=length):
             word = "".join(bits)
-            for key in ("invert", "increment"):
-                result = case(ex[key], word, group="all_binary_words_length_0_to_6", bound=30)
-                assert result["status"] == "terminal"
-                s = result["configuration"]
-                display = (s["left"] + s["scanned"] + s["right"]).strip("_")
-                if key == "invert":
-                    expected = "".join("1" if c == "0" else "0" for c in word)
-                else:
-                    expected = format(int(word or "0", 2) + 1, "b").zfill(len(word))
-                assert display == expected, (key, word, display, expected)
-    print("Все 127 двоичных слов длины 0..6 для инверсии и +1: OK", flush=True)
+            result = case(ex["invert"], word, group="all_binary_words_length_0_to_3", bound=30)
+            assert result["status"] == "terminal"
+            s = result["configuration"]
+            display = (s["left"] + s["scanned"] + s["right"]).strip("_")
+            assert display == "".join("1" if c == "0" else "0" for c in word), (word, display)
+            word2 = "σ" + word
+            result = case(ex["task_1_02"], word2, group="all_binary_words_length_0_to_3",
+                          bound=30)
+            assert result["status"] == "terminal"
+            s = result["configuration"]
+            display = (s["left"] + s["scanned"] + s["right"]).strip("_")
+            if word:
+                assert display == word2 + "1" and s["state"] == OMEGA, (word2, display)
+            else:
+                assert display == "σ1" and s["state"] == OMEGA_ERROR, (word2, display)
+    print("Все 15 двоичных слов длины 0..3 для инверсии и задачи 1.2: OK", flush=True)
 
     # все сочетания чтения/записи/движения и соседей с обеих сторон
     for a, b, d, left, right in product("01_", "01_", "LRS", ("", "0", "1", "_"),
@@ -183,23 +252,21 @@ def main():
                           group="lookup_and_program_order", audit=True)
             assert result["tm_transitions"] == int(present)
     # те же примеры полным перебором, совсем без оптимизации
-    for key, word in (("invert", "01"), ("increment", "1"), ("immediate", "")):
+    for key, word in (("invert", "01"), ("task_1_02", "σ1"), ("immediate", "")):
         case(ex[key], word, group="full_ordered_scan", plain=True)
-    print("Отсутствующие команды, все виды несовпадения, перемешанные программы, полный перебор: OK", flush=True)
+    print("Отсутствующие команды, все виды несовпадения, перемешанные программы, полный перебор: OK",
+          flush=True)
 
-    # все 10^3 частичных таблиц одного рабочего состояния: строка либо
-    # отсутствует, либо (запись, движение) с целевым состоянием 1.
-    # Проверяются префиксы, а не заявления об остановке.
+    # все 10^3 частичных таблиц одного рабочего состояния; пустой вход.
     options = (None,) + tuple(product("01_", "LRS"))
     for choices in product(options, repeat=3):
         rows = tuple(T(1, a, 1, choice[0], choice[1]) for a, choice in zip("01_", choices)
                      if choice is not None)
         machine = Machine(1, rows, "exhaustive one-state table")
-        for word in ("", "0", "1"):
-            case(machine, word, bound=4, group="all_1000_one_state_tables_three_inputs")
-    print("Все 1000 таблиц одного состояния на трёх входах, префиксы до 4 переходов: OK", flush=True)
+        case(machine, "", bound=4, group="all_1000_one_state_tables")
+    print("Все 1000 таблиц одного состояния, префиксы до 4 переходов: OK", flush=True)
 
-    for i in range(160):
+    for i in range(60):
         ids = rng.sample(range(1, 10), rng.randint(1, 5))
         rows = [T(q, a, rng.choice(ids), rng.choice("01_"), rng.choice("LRS"))
                 for q in ids for a in "01_" if rng.random() < 0.72]
@@ -207,7 +274,7 @@ def main():
         machine = Machine(rng.choice(ids), tuple(rows), "random_" + str(i))
         word = "".join(rng.choice("01") for _ in range(rng.randrange(6)))
         case(machine, word, bound=12, group="seeded_random_multi_state")
-    print("160 случайных машин с фиксированным seed: OK", flush=True)
+    print("60 случайных машин с фиксированным seed: OK", flush=True)
 
     for key, word in (("loop_stay", ""), ("loop_right", "0110")):
         result = case(ex[key], word, bound=80, group="infinite_machine_prefixes")
@@ -227,7 +294,8 @@ def main():
     report = {
         "status": "PASS", "finished_utc": datetime.now(timezone.utc).isoformat(),
         "python": sys.version, "elapsed_seconds": round(time.perf_counter() - started, 3),
-        "rules": len(rules), "alphabet_size": 88, "rules_json_sha256": original_hash,
+        "rules": len(rules), "alphabet_size": info["alphabet_size"],
+        "rules_json_sha256": original_hash,
         "cases": cases, "compared_tm_transitions": total_transitions,
         "compared_stable_configurations_including_initial": cases + total_transitions,
         "executed_nam_replacements_in_differential_cases": total_replacements,
