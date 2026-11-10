@@ -1,0 +1,13 @@
+{
+  "name": "Бесконечное S",
+  "start": 1,
+  "transitions": [
+    {
+      "source": 1,
+      "read": "_",
+      "target": 1,
+      "write": "_",
+      "move": "S"
+    }
+  ]
+}

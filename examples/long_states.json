@@ -1,0 +1,20 @@
+{
+  "name": "Длинные коды",
+  "start": 129,
+  "transitions": [
+    {
+      "source": 129,
+      "read": "0",
+      "target": 257,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 257,
+      "read": "_",
+      "target": 65,
+      "write": "0",
+      "move": "L"
+    }
+  ]
+}

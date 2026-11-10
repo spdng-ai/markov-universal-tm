@@ -1,0 +1,27 @@
+{
+  "name": "Бесконечное R",
+  "start": 1,
+  "transitions": [
+    {
+      "source": 1,
+      "read": "0",
+      "target": 1,
+      "write": "0",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "1",
+      "target": 1,
+      "write": "1",
+      "move": "R"
+    },
+    {
+      "source": 1,
+      "read": "_",
+      "target": 1,
+      "write": "_",
+      "move": "R"
+    }
+  ]
+}

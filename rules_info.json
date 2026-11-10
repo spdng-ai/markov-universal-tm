@@ -1,0 +1,26 @@
+{
+  "rules": 800,
+  "control_letters": 70,
+  "data_letters": 18,
+  "alphabet_size": 88,
+  "terminal_rules": 1,
+  "rules_json_sha256": "c6cbdff00da7ca37eee122f5153c2aafe42aa5a9ea135684ef3be5d706622c4d",
+  "groups": {
+    "01 read scanned symbol": 19,
+    "02 rewind and choose record 0": 21,
+    "03 compare unary source 0": 65,
+    "04 reject restore and skip 0": 72,
+    "02 rewind and choose record 1": 21,
+    "03 compare unary source 1": 65,
+    "04 reject restore and skip 1": 72,
+    "02 rewind and choose record _": 21,
+    "03 compare unary source _": 65,
+    "04 reject restore and skip _": 72,
+    "05 erase old state and copy target": 62,
+    "06 read action and write scanned cell": 201,
+    "07 move head and extend tape": 8,
+    "08 restore program and finish transition": 18,
+    "09 terminate on missing transition": 18
+  },
+  "data_alphabet": "^;#u01_LRS[@]xvy:!"
+}

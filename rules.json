@@ -1,0 +1,4802 @@
+[
+  {
+    "lhs": "\ue000^",
+    "rhs": "^\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001^",
+    "rhs": "^\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001;",
+    "rhs": ";\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001#",
+    "rhs": "#\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001u",
+    "rhs": "u\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue0010",
+    "rhs": "0\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue0011",
+    "rhs": "1\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001_",
+    "rhs": "_\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001L",
+    "rhs": "L\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001R",
+    "rhs": "R\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001S",
+    "rhs": "S\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001[",
+    "rhs": "[\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001]",
+    "rhs": "]\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001x",
+    "rhs": "x\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001v",
+    "rhs": "v\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001y",
+    "rhs": "y\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001:",
+    "rhs": ":\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001!",
+    "rhs": "!\ue001",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue001@",
+    "rhs": "@\ue002",
+    "terminal": false,
+    "group": "01 read scanned symbol"
+  },
+  {
+    "lhs": "\ue0020",
+    "rhs": "\ue0030",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": ";\ue003",
+    "rhs": "\ue003;",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "#\ue003",
+    "rhs": "\ue003#",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "u\ue003",
+    "rhs": "\ue003u",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "0\ue003",
+    "rhs": "\ue0030",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "1\ue003",
+    "rhs": "\ue0031",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "_\ue003",
+    "rhs": "\ue003_",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "L\ue003",
+    "rhs": "\ue003L",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "R\ue003",
+    "rhs": "\ue003R",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "S\ue003",
+    "rhs": "\ue003S",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "[\ue003",
+    "rhs": "\ue003[",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "@\ue003",
+    "rhs": "\ue003@",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "]\ue003",
+    "rhs": "\ue003]",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "x\ue003",
+    "rhs": "\ue003x",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "v\ue003",
+    "rhs": "\ue003v",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "y\ue003",
+    "rhs": "\ue003y",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": ":\ue003",
+    "rhs": "\ue003:",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "!\ue003",
+    "rhs": "\ue003!",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "^\ue003",
+    "rhs": "^\ue004",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "\ue004;",
+    "rhs": ":\ue005",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "\ue004#",
+    "rhs": "\ue006#",
+    "terminal": false,
+    "group": "02 rewind and choose record 0"
+  },
+  {
+    "lhs": "\ue005x",
+    "rhs": "x\ue005",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue005u",
+    "rhs": "x\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007^",
+    "rhs": "^\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007;",
+    "rhs": ";\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007u",
+    "rhs": "u\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue0070",
+    "rhs": "0\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue0071",
+    "rhs": "1\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007_",
+    "rhs": "_\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007L",
+    "rhs": "L\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007R",
+    "rhs": "R\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007S",
+    "rhs": "S\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007[",
+    "rhs": "[\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007@",
+    "rhs": "@\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007]",
+    "rhs": "]\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007x",
+    "rhs": "x\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007v",
+    "rhs": "v\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007y",
+    "rhs": "y\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007:",
+    "rhs": ":\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007!",
+    "rhs": "!\ue007",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue007#",
+    "rhs": "#\ue008",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue008v",
+    "rhs": "v\ue008",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue008u",
+    "rhs": "v\ue009",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue008[",
+    "rhs": "\ue00a[",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "^\ue009",
+    "rhs": "\ue009^",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": ";\ue009",
+    "rhs": "\ue009;",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "#\ue009",
+    "rhs": "\ue009#",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "u\ue009",
+    "rhs": "\ue009u",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "0\ue009",
+    "rhs": "\ue0090",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "1\ue009",
+    "rhs": "\ue0091",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "_\ue009",
+    "rhs": "\ue009_",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "L\ue009",
+    "rhs": "\ue009L",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "R\ue009",
+    "rhs": "\ue009R",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "S\ue009",
+    "rhs": "\ue009S",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "[\ue009",
+    "rhs": "\ue009[",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "@\ue009",
+    "rhs": "\ue009@",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "]\ue009",
+    "rhs": "\ue009]",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "x\ue009",
+    "rhs": "\ue009x",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "v\ue009",
+    "rhs": "\ue009v",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "y\ue009",
+    "rhs": "\ue009y",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "!\ue009",
+    "rhs": "\ue009!",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": ":\ue009",
+    "rhs": ":\ue005",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue0050",
+    "rhs": "\ue00b0",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue0051",
+    "rhs": "\ue00a1",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue005_",
+    "rhs": "\ue00a_",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00b^",
+    "rhs": "^\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00b;",
+    "rhs": ";\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00bu",
+    "rhs": "u\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00b0",
+    "rhs": "0\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00b1",
+    "rhs": "1\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00b_",
+    "rhs": "_\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00bL",
+    "rhs": "L\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00bR",
+    "rhs": "R\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00bS",
+    "rhs": "S\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00b[",
+    "rhs": "[\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00b@",
+    "rhs": "@\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00b]",
+    "rhs": "]\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00bx",
+    "rhs": "x\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00bv",
+    "rhs": "v\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00by",
+    "rhs": "y\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00b:",
+    "rhs": ":\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00b!",
+    "rhs": "!\ue00b",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00b#",
+    "rhs": "#\ue00c",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00cv",
+    "rhs": "v\ue00c",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00cu",
+    "rhs": "\ue00au",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00c[",
+    "rhs": "\ue00d[",
+    "terminal": false,
+    "group": "03 compare unary source 0"
+  },
+  {
+    "lhs": "\ue00a^",
+    "rhs": "^\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00a;",
+    "rhs": ";\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00a#",
+    "rhs": "#\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00au",
+    "rhs": "u\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00a0",
+    "rhs": "0\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00a1",
+    "rhs": "1\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00a_",
+    "rhs": "_\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00aL",
+    "rhs": "L\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00aR",
+    "rhs": "R\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00aS",
+    "rhs": "S\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00a@",
+    "rhs": "@\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00a]",
+    "rhs": "]\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00ax",
+    "rhs": "x\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00av",
+    "rhs": "v\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00ay",
+    "rhs": "y\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00a:",
+    "rhs": ":\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00a!",
+    "rhs": "!\ue00a",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00a[",
+    "rhs": "\ue00e[",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": ";\ue00e",
+    "rhs": "\ue00e;",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "#\ue00e",
+    "rhs": "\ue00e#",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "u\ue00e",
+    "rhs": "\ue00eu",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "0\ue00e",
+    "rhs": "\ue00e0",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "1\ue00e",
+    "rhs": "\ue00e1",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "_\ue00e",
+    "rhs": "\ue00e_",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "L\ue00e",
+    "rhs": "\ue00eL",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "R\ue00e",
+    "rhs": "\ue00eR",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "S\ue00e",
+    "rhs": "\ue00eS",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "[\ue00e",
+    "rhs": "\ue00e[",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "@\ue00e",
+    "rhs": "\ue00e@",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "]\ue00e",
+    "rhs": "\ue00e]",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "x\ue00e",
+    "rhs": "\ue00eu",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "v\ue00e",
+    "rhs": "\ue00eu",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "y\ue00e",
+    "rhs": "\ue00ey",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": ":\ue00e",
+    "rhs": "\ue00e:",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "!\ue00e",
+    "rhs": "\ue00e!",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "^\ue00e",
+    "rhs": "^\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00f^",
+    "rhs": "^\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00f;",
+    "rhs": ";\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00f#",
+    "rhs": "#\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00fu",
+    "rhs": "u\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00f0",
+    "rhs": "0\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00f1",
+    "rhs": "1\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00f_",
+    "rhs": "_\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00fL",
+    "rhs": "L\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00fR",
+    "rhs": "R\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00fS",
+    "rhs": "S\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00f[",
+    "rhs": "[\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00f@",
+    "rhs": "@\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00f]",
+    "rhs": "]\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00fx",
+    "rhs": "x\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00fv",
+    "rhs": "v\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00fy",
+    "rhs": "y\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00f!",
+    "rhs": "!\ue00f",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue00f:",
+    "rhs": ";\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010^",
+    "rhs": "^\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010u",
+    "rhs": "u\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue0100",
+    "rhs": "0\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue0101",
+    "rhs": "1\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010_",
+    "rhs": "_\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010L",
+    "rhs": "L\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010R",
+    "rhs": "R\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010S",
+    "rhs": "S\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010[",
+    "rhs": "[\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010@",
+    "rhs": "@\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010]",
+    "rhs": "]\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010x",
+    "rhs": "x\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010v",
+    "rhs": "v\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010y",
+    "rhs": "y\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010:",
+    "rhs": ":\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010!",
+    "rhs": "!\ue010",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010;",
+    "rhs": "\ue004;",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue010#",
+    "rhs": "\ue004#",
+    "terminal": false,
+    "group": "04 reject restore and skip 0"
+  },
+  {
+    "lhs": "\ue0021",
+    "rhs": "\ue0111",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": ";\ue011",
+    "rhs": "\ue011;",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "#\ue011",
+    "rhs": "\ue011#",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "u\ue011",
+    "rhs": "\ue011u",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "0\ue011",
+    "rhs": "\ue0110",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "1\ue011",
+    "rhs": "\ue0111",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "_\ue011",
+    "rhs": "\ue011_",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "L\ue011",
+    "rhs": "\ue011L",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "R\ue011",
+    "rhs": "\ue011R",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "S\ue011",
+    "rhs": "\ue011S",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "[\ue011",
+    "rhs": "\ue011[",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "@\ue011",
+    "rhs": "\ue011@",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "]\ue011",
+    "rhs": "\ue011]",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "x\ue011",
+    "rhs": "\ue011x",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "v\ue011",
+    "rhs": "\ue011v",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "y\ue011",
+    "rhs": "\ue011y",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": ":\ue011",
+    "rhs": "\ue011:",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "!\ue011",
+    "rhs": "\ue011!",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "^\ue011",
+    "rhs": "^\ue012",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "\ue012;",
+    "rhs": ":\ue013",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "\ue012#",
+    "rhs": "\ue006#",
+    "terminal": false,
+    "group": "02 rewind and choose record 1"
+  },
+  {
+    "lhs": "\ue013x",
+    "rhs": "x\ue013",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue013u",
+    "rhs": "x\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014^",
+    "rhs": "^\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014;",
+    "rhs": ";\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014u",
+    "rhs": "u\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue0140",
+    "rhs": "0\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue0141",
+    "rhs": "1\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014_",
+    "rhs": "_\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014L",
+    "rhs": "L\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014R",
+    "rhs": "R\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014S",
+    "rhs": "S\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014[",
+    "rhs": "[\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014@",
+    "rhs": "@\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014]",
+    "rhs": "]\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014x",
+    "rhs": "x\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014v",
+    "rhs": "v\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014y",
+    "rhs": "y\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014:",
+    "rhs": ":\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014!",
+    "rhs": "!\ue014",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue014#",
+    "rhs": "#\ue015",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue015v",
+    "rhs": "v\ue015",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue015u",
+    "rhs": "v\ue016",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue015[",
+    "rhs": "\ue017[",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "^\ue016",
+    "rhs": "\ue016^",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": ";\ue016",
+    "rhs": "\ue016;",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "#\ue016",
+    "rhs": "\ue016#",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "u\ue016",
+    "rhs": "\ue016u",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "0\ue016",
+    "rhs": "\ue0160",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "1\ue016",
+    "rhs": "\ue0161",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "_\ue016",
+    "rhs": "\ue016_",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "L\ue016",
+    "rhs": "\ue016L",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "R\ue016",
+    "rhs": "\ue016R",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "S\ue016",
+    "rhs": "\ue016S",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "[\ue016",
+    "rhs": "\ue016[",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "@\ue016",
+    "rhs": "\ue016@",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "]\ue016",
+    "rhs": "\ue016]",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "x\ue016",
+    "rhs": "\ue016x",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "v\ue016",
+    "rhs": "\ue016v",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "y\ue016",
+    "rhs": "\ue016y",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "!\ue016",
+    "rhs": "\ue016!",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": ":\ue016",
+    "rhs": ":\ue013",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue0130",
+    "rhs": "\ue0170",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue0131",
+    "rhs": "\ue0181",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue013_",
+    "rhs": "\ue017_",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018^",
+    "rhs": "^\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018;",
+    "rhs": ";\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018u",
+    "rhs": "u\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue0180",
+    "rhs": "0\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue0181",
+    "rhs": "1\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018_",
+    "rhs": "_\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018L",
+    "rhs": "L\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018R",
+    "rhs": "R\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018S",
+    "rhs": "S\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018[",
+    "rhs": "[\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018@",
+    "rhs": "@\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018]",
+    "rhs": "]\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018x",
+    "rhs": "x\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018v",
+    "rhs": "v\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018y",
+    "rhs": "y\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018:",
+    "rhs": ":\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018!",
+    "rhs": "!\ue018",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue018#",
+    "rhs": "#\ue019",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue019v",
+    "rhs": "v\ue019",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue019u",
+    "rhs": "\ue017u",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue019[",
+    "rhs": "\ue00d[",
+    "terminal": false,
+    "group": "03 compare unary source 1"
+  },
+  {
+    "lhs": "\ue017^",
+    "rhs": "^\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017;",
+    "rhs": ";\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017#",
+    "rhs": "#\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017u",
+    "rhs": "u\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue0170",
+    "rhs": "0\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue0171",
+    "rhs": "1\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017_",
+    "rhs": "_\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017L",
+    "rhs": "L\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017R",
+    "rhs": "R\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017S",
+    "rhs": "S\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017@",
+    "rhs": "@\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017]",
+    "rhs": "]\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017x",
+    "rhs": "x\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017v",
+    "rhs": "v\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017y",
+    "rhs": "y\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017:",
+    "rhs": ":\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017!",
+    "rhs": "!\ue017",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue017[",
+    "rhs": "\ue01a[",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": ";\ue01a",
+    "rhs": "\ue01a;",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "#\ue01a",
+    "rhs": "\ue01a#",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "u\ue01a",
+    "rhs": "\ue01au",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "0\ue01a",
+    "rhs": "\ue01a0",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "1\ue01a",
+    "rhs": "\ue01a1",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "_\ue01a",
+    "rhs": "\ue01a_",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "L\ue01a",
+    "rhs": "\ue01aL",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "R\ue01a",
+    "rhs": "\ue01aR",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "S\ue01a",
+    "rhs": "\ue01aS",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "[\ue01a",
+    "rhs": "\ue01a[",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "@\ue01a",
+    "rhs": "\ue01a@",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "]\ue01a",
+    "rhs": "\ue01a]",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "x\ue01a",
+    "rhs": "\ue01au",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "v\ue01a",
+    "rhs": "\ue01au",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "y\ue01a",
+    "rhs": "\ue01ay",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": ":\ue01a",
+    "rhs": "\ue01a:",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "!\ue01a",
+    "rhs": "\ue01a!",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "^\ue01a",
+    "rhs": "^\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01b^",
+    "rhs": "^\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01b;",
+    "rhs": ";\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01b#",
+    "rhs": "#\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01bu",
+    "rhs": "u\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01b0",
+    "rhs": "0\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01b1",
+    "rhs": "1\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01b_",
+    "rhs": "_\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01bL",
+    "rhs": "L\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01bR",
+    "rhs": "R\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01bS",
+    "rhs": "S\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01b[",
+    "rhs": "[\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01b@",
+    "rhs": "@\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01b]",
+    "rhs": "]\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01bx",
+    "rhs": "x\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01bv",
+    "rhs": "v\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01by",
+    "rhs": "y\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01b!",
+    "rhs": "!\ue01b",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01b:",
+    "rhs": ";\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01c^",
+    "rhs": "^\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01cu",
+    "rhs": "u\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01c0",
+    "rhs": "0\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01c1",
+    "rhs": "1\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01c_",
+    "rhs": "_\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01cL",
+    "rhs": "L\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01cR",
+    "rhs": "R\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01cS",
+    "rhs": "S\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01c[",
+    "rhs": "[\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01c@",
+    "rhs": "@\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01c]",
+    "rhs": "]\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01cx",
+    "rhs": "x\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01cv",
+    "rhs": "v\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01cy",
+    "rhs": "y\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01c:",
+    "rhs": ":\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01c!",
+    "rhs": "!\ue01c",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01c;",
+    "rhs": "\ue012;",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue01c#",
+    "rhs": "\ue012#",
+    "terminal": false,
+    "group": "04 reject restore and skip 1"
+  },
+  {
+    "lhs": "\ue002_",
+    "rhs": "\ue01d_",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": ";\ue01d",
+    "rhs": "\ue01d;",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "#\ue01d",
+    "rhs": "\ue01d#",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "u\ue01d",
+    "rhs": "\ue01du",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "0\ue01d",
+    "rhs": "\ue01d0",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "1\ue01d",
+    "rhs": "\ue01d1",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "_\ue01d",
+    "rhs": "\ue01d_",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "L\ue01d",
+    "rhs": "\ue01dL",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "R\ue01d",
+    "rhs": "\ue01dR",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "S\ue01d",
+    "rhs": "\ue01dS",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "[\ue01d",
+    "rhs": "\ue01d[",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "@\ue01d",
+    "rhs": "\ue01d@",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "]\ue01d",
+    "rhs": "\ue01d]",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "x\ue01d",
+    "rhs": "\ue01dx",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "v\ue01d",
+    "rhs": "\ue01dv",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "y\ue01d",
+    "rhs": "\ue01dy",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": ":\ue01d",
+    "rhs": "\ue01d:",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "!\ue01d",
+    "rhs": "\ue01d!",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "^\ue01d",
+    "rhs": "^\ue01e",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "\ue01e;",
+    "rhs": ":\ue01f",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "\ue01e#",
+    "rhs": "\ue006#",
+    "terminal": false,
+    "group": "02 rewind and choose record _"
+  },
+  {
+    "lhs": "\ue01fx",
+    "rhs": "x\ue01f",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue01fu",
+    "rhs": "x\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020^",
+    "rhs": "^\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020;",
+    "rhs": ";\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020u",
+    "rhs": "u\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue0200",
+    "rhs": "0\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue0201",
+    "rhs": "1\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020_",
+    "rhs": "_\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020L",
+    "rhs": "L\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020R",
+    "rhs": "R\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020S",
+    "rhs": "S\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020[",
+    "rhs": "[\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020@",
+    "rhs": "@\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020]",
+    "rhs": "]\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020x",
+    "rhs": "x\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020v",
+    "rhs": "v\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020y",
+    "rhs": "y\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020:",
+    "rhs": ":\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020!",
+    "rhs": "!\ue020",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue020#",
+    "rhs": "#\ue021",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue021v",
+    "rhs": "v\ue021",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue021u",
+    "rhs": "v\ue022",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue021[",
+    "rhs": "\ue023[",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "^\ue022",
+    "rhs": "\ue022^",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": ";\ue022",
+    "rhs": "\ue022;",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "#\ue022",
+    "rhs": "\ue022#",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "u\ue022",
+    "rhs": "\ue022u",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "0\ue022",
+    "rhs": "\ue0220",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "1\ue022",
+    "rhs": "\ue0221",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "_\ue022",
+    "rhs": "\ue022_",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "L\ue022",
+    "rhs": "\ue022L",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "R\ue022",
+    "rhs": "\ue022R",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "S\ue022",
+    "rhs": "\ue022S",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "[\ue022",
+    "rhs": "\ue022[",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "@\ue022",
+    "rhs": "\ue022@",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "]\ue022",
+    "rhs": "\ue022]",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "x\ue022",
+    "rhs": "\ue022x",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "v\ue022",
+    "rhs": "\ue022v",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "y\ue022",
+    "rhs": "\ue022y",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "!\ue022",
+    "rhs": "\ue022!",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": ":\ue022",
+    "rhs": ":\ue01f",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue01f0",
+    "rhs": "\ue0230",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue01f1",
+    "rhs": "\ue0231",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue01f_",
+    "rhs": "\ue024_",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024^",
+    "rhs": "^\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024;",
+    "rhs": ";\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024u",
+    "rhs": "u\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue0240",
+    "rhs": "0\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue0241",
+    "rhs": "1\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024_",
+    "rhs": "_\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024L",
+    "rhs": "L\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024R",
+    "rhs": "R\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024S",
+    "rhs": "S\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024[",
+    "rhs": "[\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024@",
+    "rhs": "@\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024]",
+    "rhs": "]\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024x",
+    "rhs": "x\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024v",
+    "rhs": "v\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024y",
+    "rhs": "y\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024:",
+    "rhs": ":\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024!",
+    "rhs": "!\ue024",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue024#",
+    "rhs": "#\ue025",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue025v",
+    "rhs": "v\ue025",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue025u",
+    "rhs": "\ue023u",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue025[",
+    "rhs": "\ue00d[",
+    "terminal": false,
+    "group": "03 compare unary source _"
+  },
+  {
+    "lhs": "\ue023^",
+    "rhs": "^\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023;",
+    "rhs": ";\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023#",
+    "rhs": "#\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023u",
+    "rhs": "u\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue0230",
+    "rhs": "0\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue0231",
+    "rhs": "1\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023_",
+    "rhs": "_\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023L",
+    "rhs": "L\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023R",
+    "rhs": "R\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023S",
+    "rhs": "S\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023@",
+    "rhs": "@\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023]",
+    "rhs": "]\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023x",
+    "rhs": "x\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023v",
+    "rhs": "v\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023y",
+    "rhs": "y\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023:",
+    "rhs": ":\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023!",
+    "rhs": "!\ue023",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue023[",
+    "rhs": "\ue026[",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": ";\ue026",
+    "rhs": "\ue026;",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "#\ue026",
+    "rhs": "\ue026#",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "u\ue026",
+    "rhs": "\ue026u",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "0\ue026",
+    "rhs": "\ue0260",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "1\ue026",
+    "rhs": "\ue0261",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "_\ue026",
+    "rhs": "\ue026_",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "L\ue026",
+    "rhs": "\ue026L",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "R\ue026",
+    "rhs": "\ue026R",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "S\ue026",
+    "rhs": "\ue026S",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "[\ue026",
+    "rhs": "\ue026[",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "@\ue026",
+    "rhs": "\ue026@",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "]\ue026",
+    "rhs": "\ue026]",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "x\ue026",
+    "rhs": "\ue026u",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "v\ue026",
+    "rhs": "\ue026u",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "y\ue026",
+    "rhs": "\ue026y",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": ":\ue026",
+    "rhs": "\ue026:",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "!\ue026",
+    "rhs": "\ue026!",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "^\ue026",
+    "rhs": "^\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027^",
+    "rhs": "^\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027;",
+    "rhs": ";\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027#",
+    "rhs": "#\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027u",
+    "rhs": "u\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue0270",
+    "rhs": "0\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue0271",
+    "rhs": "1\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027_",
+    "rhs": "_\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027L",
+    "rhs": "L\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027R",
+    "rhs": "R\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027S",
+    "rhs": "S\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027[",
+    "rhs": "[\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027@",
+    "rhs": "@\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027]",
+    "rhs": "]\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027x",
+    "rhs": "x\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027v",
+    "rhs": "v\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027y",
+    "rhs": "y\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027!",
+    "rhs": "!\ue027",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue027:",
+    "rhs": ";\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028^",
+    "rhs": "^\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028u",
+    "rhs": "u\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue0280",
+    "rhs": "0\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue0281",
+    "rhs": "1\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028_",
+    "rhs": "_\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028L",
+    "rhs": "L\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028R",
+    "rhs": "R\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028S",
+    "rhs": "S\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028[",
+    "rhs": "[\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028@",
+    "rhs": "@\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028]",
+    "rhs": "]\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028x",
+    "rhs": "x\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028v",
+    "rhs": "v\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028y",
+    "rhs": "y\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028:",
+    "rhs": ":\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028!",
+    "rhs": "!\ue028",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028;",
+    "rhs": "\ue01e;",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "\ue028#",
+    "rhs": "\ue01e#",
+    "terminal": false,
+    "group": "04 reject restore and skip _"
+  },
+  {
+    "lhs": "v\ue00d",
+    "rhs": "\ue00d",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "#\ue00d",
+    "rhs": "\ue029#",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "^\ue029",
+    "rhs": "\ue029^",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": ";\ue029",
+    "rhs": "\ue029;",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "#\ue029",
+    "rhs": "\ue029#",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "u\ue029",
+    "rhs": "\ue029u",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "0\ue029",
+    "rhs": "\ue0290",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "1\ue029",
+    "rhs": "\ue0291",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "_\ue029",
+    "rhs": "\ue029_",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "L\ue029",
+    "rhs": "\ue029L",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "R\ue029",
+    "rhs": "\ue029R",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "S\ue029",
+    "rhs": "\ue029S",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "[\ue029",
+    "rhs": "\ue029[",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "@\ue029",
+    "rhs": "\ue029@",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "]\ue029",
+    "rhs": "\ue029]",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "x\ue029",
+    "rhs": "\ue029u",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "v\ue029",
+    "rhs": "\ue029v",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "y\ue029",
+    "rhs": "\ue029y",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "!\ue029",
+    "rhs": "\ue029!",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": ":\ue029",
+    "rhs": ":\ue02a",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02au",
+    "rhs": "u\ue02a",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02a0",
+    "rhs": "0\ue02b",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02a1",
+    "rhs": "1\ue02b",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02a_",
+    "rhs": "_\ue02b",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02by",
+    "rhs": "y\ue02b",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02bu",
+    "rhs": "y\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02c^",
+    "rhs": "^\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02c;",
+    "rhs": ";\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02c#",
+    "rhs": "#\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02cu",
+    "rhs": "u\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02c0",
+    "rhs": "0\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02c1",
+    "rhs": "1\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02c_",
+    "rhs": "_\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02cL",
+    "rhs": "L\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02cR",
+    "rhs": "R\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02cS",
+    "rhs": "S\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02c@",
+    "rhs": "@\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02c]",
+    "rhs": "]\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02cx",
+    "rhs": "x\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02cv",
+    "rhs": "v\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02cy",
+    "rhs": "y\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02c:",
+    "rhs": ":\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02c!",
+    "rhs": "!\ue02c",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02c[",
+    "rhs": "u\ue02d[",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "^\ue02d",
+    "rhs": "\ue02d^",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": ";\ue02d",
+    "rhs": "\ue02d;",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "#\ue02d",
+    "rhs": "\ue02d#",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "u\ue02d",
+    "rhs": "\ue02du",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "0\ue02d",
+    "rhs": "\ue02d0",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "1\ue02d",
+    "rhs": "\ue02d1",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "_\ue02d",
+    "rhs": "\ue02d_",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "L\ue02d",
+    "rhs": "\ue02dL",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "R\ue02d",
+    "rhs": "\ue02dR",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "S\ue02d",
+    "rhs": "\ue02dS",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "[\ue02d",
+    "rhs": "\ue02d[",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "@\ue02d",
+    "rhs": "\ue02d@",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "]\ue02d",
+    "rhs": "\ue02d]",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "x\ue02d",
+    "rhs": "\ue02dx",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "v\ue02d",
+    "rhs": "\ue02dv",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "y\ue02d",
+    "rhs": "\ue02dy",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "!\ue02d",
+    "rhs": "\ue02d!",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": ":\ue02d",
+    "rhs": ":\ue02a",
+    "terminal": false,
+    "group": "05 erase old state and copy target"
+  },
+  {
+    "lhs": "\ue02b0",
+    "rhs": "0\ue02e",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02eL",
+    "rhs": "L\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02f^",
+    "rhs": "^\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02f;",
+    "rhs": ";\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02f#",
+    "rhs": "#\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02fu",
+    "rhs": "u\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02f0",
+    "rhs": "0\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02f1",
+    "rhs": "1\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02f_",
+    "rhs": "_\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02fL",
+    "rhs": "L\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02fR",
+    "rhs": "R\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02fS",
+    "rhs": "S\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02f[",
+    "rhs": "[\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02f]",
+    "rhs": "]\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02fx",
+    "rhs": "x\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02fv",
+    "rhs": "v\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02fy",
+    "rhs": "y\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02f:",
+    "rhs": ":\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02f!",
+    "rhs": "!\ue02f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02f@",
+    "rhs": "@\ue030",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0300",
+    "rhs": "\ue031@0",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0301",
+    "rhs": "\ue031@0",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue030_",
+    "rhs": "\ue031@0",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02eR",
+    "rhs": "R\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032^",
+    "rhs": "^\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032;",
+    "rhs": ";\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032#",
+    "rhs": "#\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032u",
+    "rhs": "u\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0320",
+    "rhs": "0\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0321",
+    "rhs": "1\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032_",
+    "rhs": "_\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032L",
+    "rhs": "L\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032R",
+    "rhs": "R\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032S",
+    "rhs": "S\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032[",
+    "rhs": "[\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032]",
+    "rhs": "]\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032x",
+    "rhs": "x\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032v",
+    "rhs": "v\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032y",
+    "rhs": "y\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032:",
+    "rhs": ":\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032!",
+    "rhs": "!\ue032",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue032@",
+    "rhs": "@\ue033",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0330",
+    "rhs": "0@\ue034",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0331",
+    "rhs": "0@\ue034",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue033_",
+    "rhs": "0@\ue034",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02eS",
+    "rhs": "S\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035^",
+    "rhs": "^\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035;",
+    "rhs": ";\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035#",
+    "rhs": "#\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035u",
+    "rhs": "u\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0350",
+    "rhs": "0\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0351",
+    "rhs": "1\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035_",
+    "rhs": "_\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035L",
+    "rhs": "L\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035R",
+    "rhs": "R\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035S",
+    "rhs": "S\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035[",
+    "rhs": "[\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035]",
+    "rhs": "]\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035x",
+    "rhs": "x\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035v",
+    "rhs": "v\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035y",
+    "rhs": "y\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035:",
+    "rhs": ":\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035!",
+    "rhs": "!\ue035",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue035@",
+    "rhs": "@\ue036",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0360",
+    "rhs": "@\ue0370",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0361",
+    "rhs": "@\ue0370",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue036_",
+    "rhs": "@\ue0370",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02b1",
+    "rhs": "1\ue038",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue038L",
+    "rhs": "L\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039^",
+    "rhs": "^\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039;",
+    "rhs": ";\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039#",
+    "rhs": "#\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039u",
+    "rhs": "u\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0390",
+    "rhs": "0\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0391",
+    "rhs": "1\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039_",
+    "rhs": "_\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039L",
+    "rhs": "L\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039R",
+    "rhs": "R\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039S",
+    "rhs": "S\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039[",
+    "rhs": "[\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039]",
+    "rhs": "]\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039x",
+    "rhs": "x\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039v",
+    "rhs": "v\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039y",
+    "rhs": "y\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039:",
+    "rhs": ":\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039!",
+    "rhs": "!\ue039",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue039@",
+    "rhs": "@\ue03a",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue03a0",
+    "rhs": "\ue031@1",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue03a1",
+    "rhs": "\ue031@1",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue03a_",
+    "rhs": "\ue031@1",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue038R",
+    "rhs": "R\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03b^",
+    "rhs": "^\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03b;",
+    "rhs": ";\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03b#",
+    "rhs": "#\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03bu",
+    "rhs": "u\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03b0",
+    "rhs": "0\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03b1",
+    "rhs": "1\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03b_",
+    "rhs": "_\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03bL",
+    "rhs": "L\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03bR",
+    "rhs": "R\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03bS",
+    "rhs": "S\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03b[",
+    "rhs": "[\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03b]",
+    "rhs": "]\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03bx",
+    "rhs": "x\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03bv",
+    "rhs": "v\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03by",
+    "rhs": "y\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03b:",
+    "rhs": ":\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03b!",
+    "rhs": "!\ue03b",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03b@",
+    "rhs": "@\ue03c",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue03c0",
+    "rhs": "1@\ue034",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue03c1",
+    "rhs": "1@\ue034",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue03c_",
+    "rhs": "1@\ue034",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue038S",
+    "rhs": "S\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03d^",
+    "rhs": "^\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03d;",
+    "rhs": ";\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03d#",
+    "rhs": "#\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03du",
+    "rhs": "u\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03d0",
+    "rhs": "0\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03d1",
+    "rhs": "1\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03d_",
+    "rhs": "_\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03dL",
+    "rhs": "L\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03dR",
+    "rhs": "R\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03dS",
+    "rhs": "S\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03d[",
+    "rhs": "[\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03d]",
+    "rhs": "]\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03dx",
+    "rhs": "x\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03dv",
+    "rhs": "v\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03dy",
+    "rhs": "y\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03d:",
+    "rhs": ":\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03d!",
+    "rhs": "!\ue03d",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03d@",
+    "rhs": "@\ue03e",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue03e0",
+    "rhs": "@\ue0371",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue03e1",
+    "rhs": "@\ue0371",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue03e_",
+    "rhs": "@\ue0371",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue02b_",
+    "rhs": "_\ue03f",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03fL",
+    "rhs": "L\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040^",
+    "rhs": "^\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040;",
+    "rhs": ";\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040#",
+    "rhs": "#\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040u",
+    "rhs": "u\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0400",
+    "rhs": "0\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0401",
+    "rhs": "1\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040_",
+    "rhs": "_\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040L",
+    "rhs": "L\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040R",
+    "rhs": "R\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040S",
+    "rhs": "S\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040[",
+    "rhs": "[\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040]",
+    "rhs": "]\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040x",
+    "rhs": "x\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040v",
+    "rhs": "v\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040y",
+    "rhs": "y\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040:",
+    "rhs": ":\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040!",
+    "rhs": "!\ue040",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue040@",
+    "rhs": "@\ue041",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0410",
+    "rhs": "\ue031@_",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0411",
+    "rhs": "\ue031@_",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue041_",
+    "rhs": "\ue031@_",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03fR",
+    "rhs": "R\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042^",
+    "rhs": "^\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042;",
+    "rhs": ";\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042#",
+    "rhs": "#\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042u",
+    "rhs": "u\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0420",
+    "rhs": "0\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0421",
+    "rhs": "1\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042_",
+    "rhs": "_\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042L",
+    "rhs": "L\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042R",
+    "rhs": "R\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042S",
+    "rhs": "S\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042[",
+    "rhs": "[\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042]",
+    "rhs": "]\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042x",
+    "rhs": "x\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042v",
+    "rhs": "v\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042y",
+    "rhs": "y\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042:",
+    "rhs": ":\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042!",
+    "rhs": "!\ue042",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue042@",
+    "rhs": "@\ue043",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0430",
+    "rhs": "_@\ue034",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0431",
+    "rhs": "_@\ue034",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue043_",
+    "rhs": "_@\ue034",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue03fS",
+    "rhs": "S\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044^",
+    "rhs": "^\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044;",
+    "rhs": ";\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044#",
+    "rhs": "#\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044u",
+    "rhs": "u\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0440",
+    "rhs": "0\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0441",
+    "rhs": "1\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044_",
+    "rhs": "_\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044L",
+    "rhs": "L\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044R",
+    "rhs": "R\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044S",
+    "rhs": "S\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044[",
+    "rhs": "[\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044]",
+    "rhs": "]\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044x",
+    "rhs": "x\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044v",
+    "rhs": "v\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044y",
+    "rhs": "y\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044:",
+    "rhs": ":\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044!",
+    "rhs": "!\ue044",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue044@",
+    "rhs": "@\ue045",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0450",
+    "rhs": "@\ue037_",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue0451",
+    "rhs": "@\ue037_",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "@\ue045_",
+    "rhs": "@\ue037_",
+    "terminal": false,
+    "group": "06 read action and write scanned cell"
+  },
+  {
+    "lhs": "\ue0340",
+    "rhs": "\ue0370",
+    "terminal": false,
+    "group": "07 move head and extend tape"
+  },
+  {
+    "lhs": "\ue0341",
+    "rhs": "\ue0371",
+    "terminal": false,
+    "group": "07 move head and extend tape"
+  },
+  {
+    "lhs": "\ue034_",
+    "rhs": "\ue037_",
+    "terminal": false,
+    "group": "07 move head and extend tape"
+  },
+  {
+    "lhs": "\ue034]",
+    "rhs": "\ue037_]",
+    "terminal": false,
+    "group": "07 move head and extend tape"
+  },
+  {
+    "lhs": "0\ue031@",
+    "rhs": "\ue037@0",
+    "terminal": false,
+    "group": "07 move head and extend tape"
+  },
+  {
+    "lhs": "1\ue031@",
+    "rhs": "\ue037@1",
+    "terminal": false,
+    "group": "07 move head and extend tape"
+  },
+  {
+    "lhs": "_\ue031@",
+    "rhs": "\ue037@_",
+    "terminal": false,
+    "group": "07 move head and extend tape"
+  },
+  {
+    "lhs": "[\ue031@",
+    "rhs": "[\ue037@_",
+    "terminal": false,
+    "group": "07 move head and extend tape"
+  },
+  {
+    "lhs": ";\ue037",
+    "rhs": "\ue037;",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "#\ue037",
+    "rhs": "\ue037#",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "u\ue037",
+    "rhs": "\ue037u",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "0\ue037",
+    "rhs": "\ue0370",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "1\ue037",
+    "rhs": "\ue0371",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "_\ue037",
+    "rhs": "\ue037_",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "L\ue037",
+    "rhs": "\ue037L",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "R\ue037",
+    "rhs": "\ue037R",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "S\ue037",
+    "rhs": "\ue037S",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "[\ue037",
+    "rhs": "\ue037[",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "@\ue037",
+    "rhs": "\ue037@",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "]\ue037",
+    "rhs": "\ue037]",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "x\ue037",
+    "rhs": "\ue037x",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "v\ue037",
+    "rhs": "\ue037v",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "y\ue037",
+    "rhs": "\ue037u",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": ":\ue037",
+    "rhs": "\ue037;",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "!\ue037",
+    "rhs": "\ue037!",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": "^\ue037",
+    "rhs": "\ue000^",
+    "terminal": false,
+    "group": "08 restore program and finish transition"
+  },
+  {
+    "lhs": ";\ue006",
+    "rhs": "\ue006;",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "#\ue006",
+    "rhs": "\ue006#",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "u\ue006",
+    "rhs": "\ue006u",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "0\ue006",
+    "rhs": "\ue0060",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "1\ue006",
+    "rhs": "\ue0061",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "_\ue006",
+    "rhs": "\ue006_",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "L\ue006",
+    "rhs": "\ue006L",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "R\ue006",
+    "rhs": "\ue006R",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "S\ue006",
+    "rhs": "\ue006S",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "[\ue006",
+    "rhs": "\ue006[",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "@\ue006",
+    "rhs": "\ue006@",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "]\ue006",
+    "rhs": "\ue006]",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "x\ue006",
+    "rhs": "\ue006x",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "v\ue006",
+    "rhs": "\ue006v",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "y\ue006",
+    "rhs": "\ue006y",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": ":\ue006",
+    "rhs": "\ue006:",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "!\ue006",
+    "rhs": "\ue006!",
+    "terminal": false,
+    "group": "09 terminate on missing transition"
+  },
+  {
+    "lhs": "^\ue006",
+    "rhs": "!^",
+    "terminal": true,
+    "group": "09 terminate on missing transition"
+  }
+]
